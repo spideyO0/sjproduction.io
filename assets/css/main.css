@@ -634,7 +634,22 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+/*Team page style*/
+.flex-container-right {
+	display: flex;
+	float: right;
+	text-align: right;
+	font-size: larger;
+  }
 
+  .flex-container-left {
+	display: flex;
+	float: left;
+	text-align: right;
+	text-align: justify;
+	font-size: larger;
+	
+  }
 /* Image */
 
 	.image {
@@ -668,9 +683,7 @@ input, select, textarea {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
-				width: 100%;
-			}
+			
 
 		.image.left {
 			float: left;
@@ -699,6 +712,8 @@ input, select, textarea {
 			margin: 2.5rem 0;
 			width: 100%;
 		}
+
+
 
 			.image.main img {
 				width: 100%;
